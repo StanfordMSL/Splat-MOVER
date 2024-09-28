@@ -1,0 +1,10 @@
+
+**/__pycache__
+**/*.egg-info
+**/figures
+**/renders
+*.npy
+*.ply
+
+# Platform-dependent files
+*.DS_Store
