@@ -59,4 +59,4 @@ python -m pip install -e .
 ns-install-cli
 ```
 
-Now, you can run `sagesplat` like other models in Nerfstudio using the `ns-train sagesplat` command.
+Now, you can run `sagesplat` like other models in Nerfstudio using the `ns-train sagesplat --data <path to the data directory for a given scene>` command. You can try out the data used in the experiments [here](https://drive.google.com/drive/folders/1rMsVu8iJ4sm1TCf52bX_gTJOGPKmAlfJ?usp=sharing).
