@@ -41,7 +41,7 @@
 We present Splat-MOVER, a modular robotics stack for open-vocabulary robotic manipulation,which leverages the editability of Gaussian Splatting (GSplat) scene representations to enable multi-stage manipulation tasks. Splat-MOVER consists of: (i) ASK-Splat, a GSplat representation that distills semantic and grasp affordance features into the 3D scene. ASK-Splat enables geometric, semantic, and affordance understanding of 3D scenes, which is critical for many robotics tasks; (ii) SEE-Splat, a real-time scene-editing module using 3D semantic masking and infilling to visualize the motions of objects that result from robot interactions in the real-world. SEE-Splat creates a “digital twin” of the evolving environment throughout the manipulation task; and (iii) Grasp-Splat, a grasp generation module that uses ASK-Splat and SEE-Splat to propose affordance-aligned candidate grasps for open-world objects.
 
 ## Installation
-This repository utilizes [Nerfstudio](https://docs.nerf.studio/quickstart/installation.html), [GraspNet](https://github.com/graspnet/graspnet-baseline), and [VRB](https://github.com/shikharbahl/vrb).
+This repository utilizes [Nerfstudio](https://docs.nerf.studio/quickstart/installation.html), [GraspNet](https://github.com/graspnet/graspnet-baseline), and [VRB](https://github.com/shikharbahl/vrb). This repo has been verified to work with the following package versions: `nerfstudio==1.1.0`, `gsplat=0.1.13`, and `lang-sam` with the commit SHA `a1a9557`.
 Please install these packages from source, then proceed with the following steps:
 
 1. Clone this repo.
